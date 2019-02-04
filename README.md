@@ -1,8 +1,8 @@
 # Readers-writers problem
 
-Author: Kapsammer, Kirchmair
+*Author: Kapsammer, Kirchmair
 Klasse: 3AHIF
-Readers-Writers Problem
+Readers-Writers Problem*
 
 ## Situation
 
@@ -20,4 +20,4 @@ Schneepflüge fahren können. Das Problem ist, dass während ein Schneepflug auf
 
 
 
-## Wir entschuldigen uns für die stark verspätete Abgabe. Leider haben wir noch einen kleinen Fehler mit dem Snowplow Thread. Der Snowplow funktioniert, wenn davor keine Autos gefahren sind.
+### Wir entschuldigen uns für die stark verspätete Abgabe. Leider haben wir noch einen kleinen Fehler mit dem Snowplow Thread. Der Snowplow funktioniert, wenn davor keine Autos gefahren sind.
