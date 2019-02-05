@@ -56,6 +56,12 @@ public class Controller implements Initializable {
                 if (!repo.isSnowPlowDriving()) repo.startCar('r');
                 if (nextSide.equals('r')) nextSide = 'l';
                 else nextSide = 'r';
+
+                if (repo.isSnowPlowDriving())
+                        plowButton.setDisable(true);
+                else
+                        plowButton.setDisable(false);
+
                 leftQueueText.setText(String.format("%d",repo.getCars('l').size()));
                 rightQueueText.setText(String.format("%d",repo.getCars('r').size()));
                 if (repo.getCars('s').size() == 0 && repo.isSnowPlowDriving()) {

@@ -74,6 +74,7 @@ public class Repository {
     }
 
     public void stopSnowPlow() {
+
         snowPlowIsDriving = false;
     }
 }
